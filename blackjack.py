@@ -1,12 +1,12 @@
 # BlackJack or 21 game
-
 import random
 # THE PLANNING PHASE
+cards = []
+
  # Dealer cards
 dealer_cards = []
  # Player cards
 player_cards = []
-
 # Deal the cards
 # Display the cards
 # Dealer Cards
