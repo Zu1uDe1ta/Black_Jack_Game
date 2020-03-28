@@ -9,3 +9,16 @@ cards = [
     ]
 
 random.shuffle(cards)
+
+dealer = []
+you = []
+player = []
+
+player.append(cards.pop())
+you.append(cards.pop())
+dealer.append(cards.pop())
+player.append(cards.pop())
+you.append(cards.pop())
+dealer.append(cards.pop())
+
+print(player, you, dealer)
