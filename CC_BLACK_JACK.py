@@ -22,3 +22,15 @@ you.append(cards.pop())
 dealer.append(cards.pop())
 
 print(player, you, dealer)
+
+"""
+# player makes a decision stand or hit
+while True: 
+# to clear the screen
+	os.system('clear')
+#let's show what cards they players have
+	print("Delaer Cards: [][?]".format(dealer[0]))
+	print("Your Cards [{}]".format("][".join(player), 000000))
+
+	break
+	
