@@ -38,17 +38,17 @@ class Card(object):
 class Deck(object):
         """Represents deck of 52 cards to be dealt to the player and dealer"""
 
-        def shuffle(self):
+    def shuffle(self):
             """Randomly shuffle the deck of cards"""
-            random.shuffle(cards)
+        random.shuffle(cards)
 
-        def deal(self):
-            player.append(cards.pop())
-            you.append(cards.pop())
-            dealer.append(cards.pop())
-            player.append(cards.pop())
-            you.append(cards.pop())
-            dealer.append(cards.pop())
+    def deal(self):
+        player.append(cards.pop())
+        you.append(cards.pop())
+        dealer.append(cards.pop())
+        player.append(cards.pop())
+        you.append(cards.pop())
+        dealer.append(cards.pop())
 
 class Hand(object):
     """Represents the cards held by the player or the dealer"""
@@ -68,23 +68,6 @@ class Hand(object):
             else:
                 sum += 1
         return sum
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
