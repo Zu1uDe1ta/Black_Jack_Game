@@ -1,6 +1,6 @@
-
 import os
 import random
+
 
 def calc_hand(hand):
     non_aces = [c for c in hand if c != 'A']
@@ -99,6 +99,9 @@ while True:
             standing = True
             while calc_hand(dealer) <= 16:
                 dealer.append(cards.pop())
+
+
+
 
 ############
 # BlackJack or 21 game
