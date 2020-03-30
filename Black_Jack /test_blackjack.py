@@ -13,8 +13,6 @@ class CardTestCase(unittest.TestCase):
         card = Card("J")
         self.assertEqual(card.value(), 10)
 
-
-
 class VivaComprehensionsTest(unittest.TestCase):
 
     def test_gen_list(self):
