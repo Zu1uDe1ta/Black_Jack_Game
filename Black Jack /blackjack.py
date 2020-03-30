@@ -36,13 +36,8 @@ class Card(object):
         return self.rank == "A"
 
 class Deck(object):
-        """Represents deck of 52 cards to be dealt to the player and dealer"""
-
-    def shuffle(self):
-            """Randomly shuffle the deck of cards"""
-        random.shuffle(cards)
-
     def deal(self):
+        random.shuffle(cards)
         player.append(cards.pop())
         you.append(cards.pop())
         dealer.append(cards.pop())
@@ -128,7 +123,7 @@ class Hand(object):
         hand.add_card(card)
         return hand
 
-# Blackjack game
+
 # Compare the sums of the cards between D v P
 # If P card sum is greater than 21 = BUST
 # If P card sum is less than 21 = Option Hit or Stay
@@ -143,12 +138,5 @@ random.shuffle(cards)
 
 
 
-
-
-
-
-
-
-
-#if __name__ == '__main__':
-    # main()
+if __name__ == '__main__':
+    main()
